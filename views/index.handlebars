@@ -192,8 +192,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </div>
 </div>
 		{{else}}
-		<p>NO GRID</p>
-		{{/if}}
+		
 		<h4>Projects</h4>
 		{{#each projects}}
 			<div class="project" id="{{id}}">
@@ -208,6 +207,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 			</div>
 		{{/each}}
 
+		{{/if}}
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
